@@ -1,0 +1,80 @@
+body
+{
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+}
+
+h1
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #0000AA;
+
+}
+
+div
+{
+  display: flex;
+}
+
+a:link
+{
+  color:green;
+}
+a:visited
+{
+  color:beige;
+}
+
+img
+{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.banner
+{
+  background-color: #885200;
+  justify-content: center;
+}
+
+.franzlizt
+{
+  background-color: purple;
+  width: 50%;
+  justify-content:center;
+  align-self: center;
+}
+.sidebyside
+{
+  flex-direction: row;
+  width: 100%;
+}
+.halfscreen
+{
+  width: 50vw;
+  max-width: 50vw;
+  height: 50vh;
+  max-height: 50vh;
+}
+
+.leftside
+{
+  background-color: aqua;
+  justify-content: center;
+}
+
+.rightside
+{
+  background-color: aquamarine;
+  justify-content: center;
+}
+
+.gohome
+{
+  background-color: #885200;
+  width: 25vw;
+  max-width: 25vw;
+  justify-content:left;
+}
